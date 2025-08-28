@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aniruddha1321</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon"> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Main -->
+
+  <main>
+
+    <!-- Sidbar -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/Profile Image.jpeg" alt="Aniruddha Shete" width="80" style="border-radius: 15px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aniruddha Shete">Aniruddha Shete</h1>
+
+          <p class="title">Java Developer</p>
+        </div>
+
+        <ul class="social-list">
+        
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aniruddha-shete-778a002b2/" class="social-link">
+              <ion-icon name="logo-linkedin"
+                        style="filter: none; transition: filter 0.3s ease;"
+                        onmouseover="this.style.filter='drop-shadow(0 0 10px #0077b5) drop-shadow(0 0 20px #0077b5)'"
+                        onmouseout="this.style.filter='none'">
+              </ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/aniruddha1321" class="social-link">
+              <ion-icon name="logo-github"
+                        style="filter: none; transition: filter 0.3s ease;"
+                        onmouseover="this.style.filter='drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff)'"
+                        onmouseout="this.style.filter='none'">
+              </ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://discord.com/users/aniruddha_1321" class="social-link">
+              <ion-icon name="logo-discord"
+                        style="filter: hue-rotate(180deg) saturate(1.5) brightness(1.2); transition: filter 0.3s ease;"
+                        onmouseover="this.style.filter='hue-rotate(180deg) saturate(2) brightness(1.4) drop-shadow(0 0 10px #8a2be2) drop-shadow(0 0 20px #8a2be2)'"
+                        onmouseout="this.style.filter='hue-rotate(180deg) saturate(1.5) brightness(1.2)'">
+              </ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://leetcode.com/u/aniruddha1321" class="social-link" target="_blank">
+              <img src="assets/images/leetcode.svg" 
+                  alt="LeetCode"  
+                  width="23.5" 
+                  height="23.5" 
+                  style="filter: brightness(1.5) contrast(1.2); transition: filter 0.3s ease;"
+                  onmouseover="this.style.filter='brightness(1.8) contrast(1.4) drop-shadow(0 0 10px #ffa116) drop-shadow(0 0 20px #ffa116)'"
+                  onmouseout="this.style.filter='brightness(1.5) contrast(1.2)'">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.geeksforgeeks.org/user/aniruddha1321/" class="social-link" target="_blank">
+              <img src="assets/images/geeksforgeeks.svg" 
+                  alt="GeeksforGeeks"  
+                  width="30" 
+                  height="30" 
+                  style="filter: brightness(1.5) contrast(1.2) hue-rotate(85deg) saturate(1.7); transition: filter 0.3s ease;"
+                  onmouseover="this.style.filter='brightness(1.8) contrast(1.4) hue-rotate(85deg) saturate(2.2) drop-shadow(0 0 10px #00c853) drop-shadow(0 0 20px #00c853)'"
+                  onmouseout="this.style.filter='brightness(1.5) contrast(1.2) hue-rotate(85deg) saturate(1.7)'">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.hackerrank.com/profile/aniruddha1321" class="social-link" target="_blank">
+              <img src="assets/images/hackerrank.svg" 
+                  alt="HackerRank"  
+                  width="30" 
+                  height="30" 
+                  style="filter: brightness(1.5) contrast(1.2) hue-rotate(85deg) saturate(1.7); transition: filter 0.3s ease;"
+                  onmouseover="this.style.filter='brightness(1.8) contrast(1.4) hue-rotate(85deg) saturate(2.2) drop-shadow(0 0 10px #1ba94c) drop-shadow(0 0 20px #1ba94c)'"
+                  onmouseout="this.style.filter='brightness(1.5) contrast(1.2) hue-rotate(85deg) saturate(1.7)'">
+            </a>
+          </li>
+        
+        </ul>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline" style="font-size: 20px;"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: 13px;">Email</p>
+
+              <a href="mailto:sheteaniruddha0@gmail.com" class="contact-link">sheteaniruddha0@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" style="font-size: 20px;"></ion-icon>
+            </div>
+          
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: 13px;">Connect with Me</p>
+              <a href="https://www.linkedin.com/in/aniruddha-shete-778a002b2/" class="contact-link">On LinkedIn</a>
+            </div>
+          </li>
+
+          <!-- <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date and Time</p>
+              <time id="current" datetime="2025-01-01T11:43Z">January 1, 2025<br> 
+                11:43</time>
+            </div>            
+          </li> -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: 13px;">Resume</p>
+              <a href="https://drive.google.com/file/d/1D6DFsZCyRfEcI_BhjcqFw7ZWIBpg5OW2/view?usp=drive_link" class="contact-link" target="_blank">Download Resume</a>
+            </div>            
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" style="font-size: 13px;">Location</p>
+
+              <address style="font-size: 14px;">Pune, Maharashtra, IND</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+<!-- Main Contents -->
+
+    <div class="main-content">
+      
+      <!-- Navbar -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Volunteering</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- About -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p> I am a B.Tech CSE student at D Y Patil International University. I enjoy working with current technologies and am always eager to learn new things. With a strong foundation in computer science and a passion for problem-solving, I actively seek opportunities to apply my knowledge in real-world scenarios, develop innovative solutions.</p>
+          <p>If you want to know more about me, my projects or my skills, feel free to contact me. I'd love to hear from you.</p>
+        </section>
+
+        <!-- Service -->
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/java-blue.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Development</h4>
+
+                <p class="service-item-text">
+                  Building scalable applications using Java, SpringBoot framework, and industry-standard practices for robust backend development.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+              
+              <div class="service-icon-box">
+                <img src="assets/images/python-blue.svg" alt="camera icon" width="40">
+              </div>
+              
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Development</h4>
+                
+                <p class="service-item-text">
+                  Developing AI/ML applications using Django and Flask frameworks, specializing in intelligent automation and performance optimization.
+                </p>
+              </div>
+            </li>
+            
+            <li class="service-item">
+              
+              <div class="service-icon-box">
+                <img src="assets/images/web-development.svg" alt="Web development icon" width="40">
+              </div>
+              
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                
+                <p class="service-item-text">
+                  Engineering intuitive and responsive web experiences that prioritize user engagement and seamless navigation.
+                </p>
+              </div>
+              
+            </li>
+              
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/ai.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Solutions</h4>
+
+                <p class="service-item-text">
+                  Exploring machine learning models and intelligent systems to automate complex tasks and extract insights from data.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        
+        <!-- Technologies -->
+        <section class="clients" style="margin-bottom: 0px;">
+          <h3 class="h3 clients-title" style="margin-bottom: 0px;">Tech Skills</h3>
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/java.svg" alt="Java" width="70" height="70">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/python.svg" alt="Python" width="50" height="50">
+              </a>
+            </li>
+            
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/spring.svg" alt="Spring Boot" width="50" height="50">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/javascript.svg" alt="Dart" width="50" height="50">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/Nvidia_CUDA.svg" alt="NVIDIA CUDA" width="50" height="50">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/flutter.svg" alt="Flutter" width="50" height="50">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/firebase.svg" alt="Firebase" width="50" height="50">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/git.svg" alt="Git" width="50" height="50">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/mongodb.svg" alt="MongoDB" width="50" height="50">
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/nodejs.svg" alt="HTML & CSS" width="50" height="50">
+              </a>
+            </li>
+
+            <!-- <li class="clients-item">
+              <a href="index.html#">
+                <img src="assets/images/ai.svg" alt="AI & ML" width="50" height="50">
+              </a>
+            </li> -->
+
+          </ul>
+        </section>
+
+        </article>
+
+
+<!-- Resume -->
+
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- Education Section -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="school-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">D Y Patil International University (DYPIU), Akurdi, Pune</h4>
+        <span>B.Tech in Computer Science Engineering (CGPA: 8.04)</span>
+        <p class="timeline-text">
+        Completed my undergraduate degree specializing in Computer Science, gaining foundational and advanced knowledge in software development, algorithms, and databases.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- Experience Section -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Research Intern</h4>
+        <span>COEP Technological University (May 2025 — Aug 2025)</span>
+        <p class="timeline-text">
+        Worked with parallel computing concepts while exploring performance-focused techniques on modern hardware architectures.
+        </p>
+        <p class="timeline-text">
+        Also exploring computational optimization strategies across heterogeneous hardware environments.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Project Intern</h4>
+        <span>Infosys (Dec 2024 — Feb 2025)</span>
+        <p class="timeline-text">
+          Contributed to developing a scalable enterprise application utilizing modern technology stack and industry best practices. Implemented robust backend architecture with optimized database design, resulting in 30% performance improvement.
+        </p>
+        <p class="timeline-text">
+          Enhanced user interface with responsive design patterns and interactive components for improved user engagement. Collaborated in cross-functional teams following Agile methodologies to deliver features within sprint deadlines.
+        </p>
+        <p class="timeline-text">
+          Executed comprehensive testing strategies including unit tests and integration testing to ensure production-ready code quality.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Web Development Intern</h4>
+        <span>KVUL Pune (May 2024 - Aug 2024)</span>
+        <p class="timeline-text">
+          Developed a robust and user-centric website architecture leveraging HTML, CSS, and JavaScript to effectively showcase the company’s product range.
+        </p>
+        <p class="timeline-text">
+          Contributed to improving website usability through intuitive navigation and clear content organization.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- Languages Section -->
+  <section class="skill">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="language-outline"></ion-icon>
+      </div>
+      <h3 class="h3">&nbsp;Languages</h3>
+    </div>
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">English</h5>
+          <data value="70">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">मराठी</h5>
+          <data value="100">100%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+      </li>
+
+            <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">हिन्दी</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <br>
+
+  <!-- Skills Section -->
+  <section class="skill">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="code-slash-outline"></ion-icon>
+      </div>
+      <h3 class="h3">&nbsp;Skills</h3>
+    </div>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Java</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Spring Boot</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">API Design</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Database Design</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <br>
+
+  <!-- Certifications Section -->
+  <section class="skill">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="qr-code-outline"></ion-icon>
+      </div>
+      <h3 class="h3">&nbsp;Certifications</h3>
+    </div>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <h5 class="h5">Ethical Hacking</h5>
+        <p class="timeline-text">Udacity Nanodegree (2025)</p>
+      </li>
+
+      <li class="skills-item">
+        <h5 class="h5">Generative Ai with AWS</h5>
+        <p class="timeline-text">AWS (2024)</p>
+      </li>
+
+      <li class="skills-item">
+        <h5 class="h5">Postman API Fundamentals</h5>
+        <p class="timeline-text">Postman (2024)</p>
+      </li>
+
+      <li class="skills-item">
+        <h5 class="h5">Python Programming</h5>
+        <p class="timeline-text">Pragyatmika (2024)</p>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <br>
+
+  <section class="skill">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="cloud-download-outline"></ion-icon>
+      </div>
+      <a href="https://drive.google.com/file/d/1D6DFsZCyRfEcI_BhjcqFw7ZWIBpg5OW2/view?usp=drive_link" target="_blank">
+        <h3 class="h3">&nbsp;Download Resume</h3>
+      </a>
+    </div>
+  </section>
+
+</article>
+
+
+<!-- Portfolio -->
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Web Development</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Python</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Applications</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Web Development</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Python</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+
+      <!-- MinFit -->
+      <li class="project-item active" data-filter-item data-category="python">
+        <a href="https://github.com/aniruddha1321/MindFit">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="assets/images/MindFit.png" alt="Fitness & Nutrition Planning Platform" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">MindFit: Fitness & Nutrition Platform</h3>
+
+          <p class="project-category">Python</p>
+
+        </a>
+      </li>
+
+      <!-- HMS: Hospital Management System -->
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="https://github.com/aniruddha1321/HMS">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="assets/images/HMS.png" alt="Streamlining Healthcare" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">HMS: Hospital Management System</h3>
+
+          <p class="project-category">Applications</p>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+
+<!-- Volunteering -->
+<article class="blog" data-page="volunteering">
+
+  <header>
+    <h2 class="h2 article-title">Volunteering</h2>
+  </header>
+
+  <!-- Volunteering Experience -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="people-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Community Involvement</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Content Writer</h4>
+        <span>CodeDecode Club • May 2024 — Present</span>
+        <p class="timeline-text">
+          Create and manage engaging technical content for the club's official communications, social media platforms, and event documentation to increase visibility and community interaction. Collaborate with team members to maintain a consistent brand voice across all platforms, enhancing the club's digital presence and outreach efforts.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <a href="https://drive.google.com/file/d/1yxYqktX5ZS11LQtGDtM9iNbUxaXSq0Bx/view?usp=drive_link" target="_blank">
+          <h4 class="h4 timeline-item-title">Program Intern</h4>
+        </a>
+        <span>Microsoft Future Ready Talent Program • Mar 2024 — May 2024</span>
+        <p class="timeline-text">
+          Participated as an intern in the Microsoft Future Ready Talent Program, a collaborative initiative between Microsoft, AICTE, FutureSkills Prime, NASSCOM, EY, and GitHub. Gained hands-on experience in cloud computing, AI, and cybersecurity through Microsoft Azure while developing real-world projects and enhancing technical skills in emerging technologies.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- Community Impact -->
+  <section class="service">
+
+    <h3 class="h3 service-title">Community Impact</h3>
+
+    <ul class="service-list">
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+            <ion-icon name="create-outline" style="color: #add8e6;"></ion-icon>
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Technical Writing</h4>
+
+          <p class="service-item-text">
+            Creating comprehensive technical documentation and tutorials to help fellow developers learn new technologies and best practices.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <ion-icon name="school-outline" style="color: lightblue;"></ion-icon>
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Mentorship</h4>
+
+          <p class="service-item-text">
+            Mentoring junior students in programming concepts, project development, and career guidance in software development.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <ion-icon name="git-branch-outline" style="color: lightblue;"></ion-icon>
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Open Source</h4>
+
+          <p class="service-item-text">
+            Contributing to open source projects and maintaining community-driven initiatives to give back to the developer ecosystem.
+          </p>
+        </div>
+
+      </li>
+
+      <li class="service-item">
+
+        <div class="service-icon-box" style="color: lightblue;">
+          <ion-icon name="trophy-outline"></ion-icon>
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Event Management</h4>
+
+          <p class="service-item-text">
+            Organizing technical events, workshops, and competitions to promote learning and networking within the tech community.
+          </p>
+        </div>
+
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+    
+
+
+<!-- Contact Section -->
+<article class="contact" data-page="contact">
+
+<header>
+  <h2 class="h2 article-title">Contact</h2>
+</header>
+
+<section class="mapbox" data-mapbox>
+  <figure>
+    <!-- Embed Google Map with 3D view -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.8576528162275!2d73.73532777494496!3d18.625471265962084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba251bce1e41%3A0xa1afd19955ffcc3c!2sLEGACY%20Urbania!5e0!3m2!1sen!2sin!4v1756139248766!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </figure>
+</section>
+
+<!-- Contact Form Section -->
+<section class="contact-form">
+
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <!-- Form Section -->
+  <form id="my-form" action="https://formspree.io/f/mqadaark" method="POST" class="form" data-form>
+    
+    <!-- Input Fields -->
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    </div>
+
+    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+    <!-- Submit Button -->
+    <button class="form-btn" type="submit" id="my-form-button">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+  <!-- Success Message (Initially hidden) -->
+  <div id="success-message" style="display:none; color: green;">
+    <h4>Thank you! Your message has been sent successfully.</h4>
+  </div>
+
+  <!-- Error Message (Initially hidden) -->
+  <div id="error-message" style="display:none; color: red;">
+    <h4>Oops! There was an error sending your message. Please try again.</h4>
+  </div>
+
+</section>
+
+</article>
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
