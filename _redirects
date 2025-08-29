@@ -1,5 +1,3 @@
-# Static assets should be served as-is
-/assets/* /assets/:splat 200
-
-# Fallback for everything else
-/* /index.html 200
+/assets/css/* /assets/css/:splat 200
+/assets/js/* /assets/js/:splat 200
+/assets/images/* /assets/images/:splat 200

@@ -132,8 +132,21 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { 
+  background: var(--smoky-black);
+  overflow-x: hidden;
+}
 
+/* Global responsive rules */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
@@ -150,7 +163,8 @@ article {
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin-inline: auto;
 }
 
@@ -1220,6 +1234,82 @@ textarea.form-input::-webkit-resizer { display: none; }
 \*-----------------------------------*/
 
 /**
+ * responsive for mobile devices (max-width: 449px)
+ */
+
+@media (max-width: 449px) {
+  
+  .sidebar,
+  article {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  body {
+    padding: 0;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  .article-title {
+    font-size: var(--fs-2);
+  }
+  
+  .navbar {
+    border-radius: 15px;
+  }
+  
+  .navbar-list {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .navbar-link {
+    font-size: var(--fs-6);
+    padding: 8px 12px;
+  }
+  
+  .project-list,
+  .blog-posts-list {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .form-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .input-wrapper {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .form-input,
+  .form-btn {
+    width: 100%;
+  }
+  
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Make sure text doesn't overflow */
+  .timeline-text,
+  .service-item-text,
+  .testimonials-text {
+    font-size: var(--fs-6);
+    line-height: 1.6;
+  }
+  
+}
+
+/**
  * responsive larger than 450px screen
  */
 
@@ -1279,7 +1369,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin-inline: auto;
     padding: 30px;
   }
